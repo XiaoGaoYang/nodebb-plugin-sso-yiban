@@ -19,5 +19,15 @@
     "name": "XiaoGaoYang",
     "email": "vslangwang@gmail.com"
   },
-  "license": "ISC"
+  "dependencies": {
+    "passport-yiban": "^0.1.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaoGaoYang/nodebb-plugin-sso-yiban/issues"
+  },
+  "nbbpm": {
+    "compatibility": "^1.0.1",
+    "index": false
+  }
 }
