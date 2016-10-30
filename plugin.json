@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-sso-yiban",
+  "name": "NodeBB yiban SSO",
+  "description": "NodeBB Plugin that allows users to login/register via their yiban account.",
+  "url": "https://github.com/XiaoGaoYang/nodebb-plugin-sso-yiban",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:auth.init", "method": "getStrategy" },
+    { "hook": "filter:admin.header.build", "method": "addMenuItem" }
+  ],
+  "templates": "./templates"
+}

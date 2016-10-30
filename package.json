@@ -1,0 +1,23 @@
+{
+  "name": "nodebb-plugin-sso-yiban",
+  "version": "0.1.0",
+  "description": "NodeBB Plugin that allows users to login/register via their yiban account.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XiaoGaoYang/nodebb-plugin-sso-yiban"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "yiban",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "author": {
+    "name": "XiaoGaoYang",
+    "email": "vslangwang@gmail.com"
+  },
+  "license": "ISC"
+}
