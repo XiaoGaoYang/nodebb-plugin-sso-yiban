@@ -31,7 +31,7 @@
           // passReqToCallback: true
         }, function (token, tokenSecret, profile, done) {
           // console.log(tokenSecret,profile);
-          YiBan.login(profile.id, profile.username, profile.school, profile.picture, function (err, user) {
+          YiBan.login(profile.id, profile.username, profile.school, profile.avatar, function (err, user) {
             if (err) {
               return done(err);
             }
